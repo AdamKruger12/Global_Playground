@@ -1,0 +1,269 @@
+2022-05-16 19:02:38.476  INFO 4664 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.2.5
+	Build:          1222
+	Build time:     11.04.2021 08:07:27 UTC
+	Branch          master
+	Commit:         7b914f2
+	Commit time:    09.04.2021 17:14:27 UTC
+	JVM:            17.0.1
+	Lavaplayer      1.3.76
+
+2022-05-16 19:02:38.573  INFO 4664 --- [main] lavalink.server.Launcher                 : Starting Launcher on Snowflame with PID 4664 (D:\Work\ShadowBot\Resources\Lavalink.jar started by Snowflame in D:\Work\ShadowBot\Resources)
+2022-05-16 19:02:38.573  INFO 4664 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2022-05-16 19:02:38.650  WARN 4664 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-05-16 19:02:39.491  WARN 4664 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-16 19:02:39.516  INFO 4664 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-05-16 19:02:39.516  INFO 4664 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 907 ms
+2022-05-16 19:02:39.847  WARN 4664 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2022-05-16 19:02:40.105  INFO 4664 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2022-05-16 19:02:40.278  INFO 4664 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2022-05-16 19:02:40.278  WARN 4664 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2022-05-16 19:02:40.440  INFO 4664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-16 19:02:40.630  INFO 4664 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2022-05-16 19:02:40.643  INFO 4664 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2022-05-16 19:02:40.681  INFO 4664 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2022-05-16 19:02:40.685  INFO 4664 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.637 seconds (JVM running for 3.431)
+2022-05-16 19:02:40.686  INFO 4664 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2022-05-16 19:02:47.206  INFO 4664 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-16 19:02:47.207  INFO 4664 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-16 19:02:47.211  INFO 4664 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-05-16 19:02:47.227  INFO 4664 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:60725
+2022-05-16 19:02:47.281  INFO 4664 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /[0:0:0:0:0:0:0:1]:60725
+2022-05-16 19:11:32.014  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"5bdccd1627e2b18a2ebd09005bfb5525","event":{"token":"f443ad10e964f8e7","guild_id":"230750656925925378","endpoint":"southafrica696.discord.media:443"},"op":"voiceUpdate","guildId":"230750656925925378"}
+2022-05-16 19:11:32.066  INFO 4664 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:enemy"
+2022-05-16 19:11:33.663  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: enemy
+2022-05-16 19:11:33.687  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAsgIASkltYWdpbmUgRHJhZ29ucyB4IEouSS5EIC0gRW5lbXkgKGZyb20gdGhlIHNlcmllcyBBcmNhbmUgTGVhZ3VlIG9mIExlZ2VuZHMpAA5JbWFnaW5lRHJhZ29ucwAAAAAAA0PwAAtEOUcxVk9qTl84NAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUQ5RzFWT2pOXzg0AAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:11:51.037  INFO 4664 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:drive forever"
+2022-05-16 19:11:51.934  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: drive forever
+2022-05-16 19:11:51.940  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAkAIAKEltYWdpbmUgRHJhZ29ucyB4IEouSS5EIC0gRW5lbXkgKEx5cmljcykADlJhY2hlbCBHYXJkbmVyAAAAAAADQAgAC29tVnZ1TDBsT2VzAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9b21WdnVMMGxPZXMAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:11:51.944  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAkAIAKEltYWdpbmUgRHJhZ29ucyB4IEouSS5EIC0gRW5lbXkgKEx5cmljcykADlJhY2hlbCBHYXJkbmVyAAAAAAADQAgAC29tVnZ1TDBsT2VzAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9b21WdnVMMGxPZXMAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:11:52.419  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAcgIAElNwaWRlci1NYW4gfCBFbmVteQAGVGhvbWFzAAAAAAACs2gAC3BUZXhBOU1XZ3N3AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9cFRleEE5TVdnc3cAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:11:52.815  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAmAIAMEVuZW15IChGcm9tIHRoZSBzZXJpZXMgQXJjYW5lIExlYWd1ZSBvZiBMZWdlbmRzKQAOSW1hZ2luZURyYWdvbnMAAAAAAAKnsAALdnhhOFNoSW05eXcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj12eGE4U2hJbTl5dwAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:11:53.263  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAhwIAJkltYWdpbmUgRHJhZ29ucyB4IEpJRCAtIEVuZW15IChMeXJpY3MpAAc3Y2xvdWRzAAAAAAACm/gAC2hIQjFJa3pmcG1jAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9aEhCMUlremZwbWMAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:11:53.737  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAhgIAFkp1cmFzc2ljIFdvcmxkIC0gRW5lbXkAFkNvYWNoR2FtZVogKEFNVintoL3tuI4AAAAAAAKjyAALRzgxcE1jaWpxSGMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1HODFwTWNpanFIYwAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:11:57.892  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAoQIAOUltYWdpbmUgRHJhZ29ucywgSklEIC0gRW5lbXkgKExpdmUgRnJvbSBUaGUgTVRWIEVNQS8yMDIxKQAOSW1hZ2luZURyYWdvbnMAAAAAAAOKQAALNFRLREdDQmJEMnMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj00VEtER0NCYkQycwAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:11:58.328  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAlQIAM0VuZW15IFdyb3RlICJYRD8iIEFuZCBJIFRvb2sgVGhhdCBXYXMgUGVyc29uYWxseS4uLgAIRUxPU0FOVEEAAAAAAA0rGAALdzROck5YRUM5MXMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj13NE5yTlhFQzkxcwAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:11:58.778  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAtgIAU0ltYWdpbmUgRHJhZ29ucyAmIEpJRCAtIEVuZW15IChMeXJpY3MpIG9oIHRoZSBtaXNlcnkgZXZlcnlib2R5IHdhbnRzIHRvIGJlIG15IGVuZW15AAlEYW4gTXVzaWMAAAAAAAKnsAALdlgxbFVNR1VSYlkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj12WDFsVU1HVVJiWQAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:11:59.366  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAmQIAMzEwIFdXRSBXcmVzdGxlcnMgV2hvIEFyZSBBY3R1YWxseSBSZWFsIExpZmUgRW5lbWllcwAMV3Jlc3RsZWxhbWlhAAAAAAAJBJgAC3d3OUYwLUV6TW53AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9d3c5RjAtRXpNbncAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:11:59.751  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAyAIAZFZvaWNlcGxheSBFbmVteSAoSW1hZ2luZSBEcmFnb25zIENvdmVyKSBGdC4gQWxlWGEgIEZpcnN0IFRpbWUgUmVhY3Rpb24tIEkgV2lsbCBCZSBTa2V3ZXJlZCBmb3IgVGhpcyEACkphbWVlIEphbXMAAAAAAAVi6AALNEROUVJBTGFHdHcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj00RE5RUkFMYUd0dwAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:03.359  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAsQIATlNhdWNleSBSZWFjdHMgfCBWb2ljZVBsYXkgLSBFbmVteSAoRmVhdC4gYWxlWGEpIHwgVGhleeKAmXJlIFNpbXBseSBJbmNyZWRpYmxlIQAJU2F1Y2V5RGFkAAAAAAANACAACzhaWGtWWTlweG1JAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9OFpYa1ZZOXB4bUkAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:03.779  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAnwIAN0ltYWdpbmUgRHJhZ29ucyB4IEpJRCAtIEVuZW15IChMaXZlIEF0IFRoZSBHYW1lIEF3YXJkcykADkltYWdpbmVEcmFnb25zAAAAAAAE2jAACzAtTEJiY01NcnVRAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MC1MQmJjTU1ydVEAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:04.243  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAmAIALkVuZW15IC0gSW1hZ2luZSBEcmFnb25zIHggSklEIC0gMSBIb3VyIFZlcnNpb24AEEJyZWF0aGxlc3MgTXVzaWMAAAAAADqb6AALX3dhdk83LU9vMFkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1fd2F2TzctT28wWQAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:04.681  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAlAIAME5FVyB8IEJlIEZBSVIsIGV2ZW4gd2l0aCB5b3VyIGVuZW15IC0gTXVmdGkgTWVuawAKTXVmdGkgTWVuawAAAAAAEnKoAAstVDZzc05fdmNjcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PS1UNnNzTl92Y2NzAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:05.180  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAlgIAM0ltYWdpbmUgRHJhZ29ucyBmZWF0LiBKSUQgLSBFbmVteSAoS2FyYW9rZSBWZXJzaW9uKQAJU2luZyBLaW5nAAAAAAAC6hgAC1gxLUZsV2J2WVJrAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9WDEtRmxXYnZZUmsAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:08.835  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAfwIAHEltYWdpbmUgRHJhZ29ucywgSklEIC0gRW5lbXkACUxhdGluSHlwZQAAAAAAApQoAAtZeE1HSjVNbERXQQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVl4TUdKNU1sRFdBAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:09.832  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAjQIAJkltYWdpbmUgRHJhZ29ucyAmIEpJRCAtIEVuZW15IChMeXJpY3MpAA1JY29uaWMgTHlyaWNzAAAAAAAECygAC3YxQzJJNjd6eDFFAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9djFDMkk2N3p4MUUAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:10.302  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAlQIALk5pZ2h0c2hpZnQgVFYgLSBEcml2ZSBGb3JldmVyIChPZmZpY2lhbCBBdWRpbykADU5JR0hUU0hJRlQgVFYAAAAAAAN2uAALeExjNmx3YkpveFUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj14TGM2bHdiSm94VQAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:10.718  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAgQIAHERyaXZlIGZvcmV2ZXIgKFQzTlpVIF9SZW1peCkAC0JMQUNLIFNQRUxMAAAAAAACIuAAC3hHREJWcnFRRl9zAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9eEdEQlZycVFGX3MAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:11.165  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAhgIAFkRyaXZlIEZvcmV2ZXIgLSAxIEhvdXIAFk11c2ljIExpYnJhcnkgLSAxIEhvdXIAAAAAADdMQAALX1N5LWR0anNJdWMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1fU3ktZHRqc0l1YwAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:14.243  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAtgIAUkNyaXN0aWFubyBSb25hbGRvIOKAoiBEcml2ZSBGb3JldmVyIC0gUnVzc2lhbiBSZW1peCAtIDIwMjEgLSBTa2lsbHMgYW5kIEdvYWxzIC0gSEQACkRIQyBTVFVESU8AAAAAAAKAoAALb2xncE11QUVwdEEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1vbGdwTXVBRXB0QQAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:14.738  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAbAIADURyaXZlIEZvcmV2ZXIABVQzTlpVAAAAAAAFS3gAC2swZFFjRXUxbG1vAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9azBkUWNFdTFsbW8AB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:15.157  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAApgIAOkRyaXZlIEZvcmV2ZXIgLSBSdXNzaWFuIFJlbWl4ICggRW5nbGlzaCBMeXJpY3MgKSBkaW9yIHNvbmcAEk11esOtYyB3aXRoIGx5cmljcwAAAAAAANLwAAs0bEgwQUVyTFZXUQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTRsSDBBRXJMVldRAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:15.661  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAoAIAM0RyaXZlIEZvcmV2ZXIgW1J1c3NpYW4gUmVtaXhdICogUGVha3kgQmxpbmRlcnMgKDRLKQATUHJpdG9tIFLDuHkgwq5NdXNpYwAAAAAAAfvQAAtQYi1NNWZvWVV2ZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVBiLU01Zm9ZVXZnAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:16.126  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAfQIAH0RyaXZlIGZvcmV2ZXIgUnVzc2lhbiAxMCBtaW4gSEQABDEyIE0AAAAAAAmFgAALWVZEU2VTcTJBaTQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ZVkRTZVNxMkFpNAAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:19.847  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAmAIAL0RSSVZFIElOIENPREVJTkUgRk9SRVZFUiB8IDYwIE1VTklURVMgfCBSVVNTSUFOAA9NIFIgU2FtZWVyIEtoYW4AAAAAADW2AAALNllTMTFJWU9aWW8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02WVMxMUlZT1pZbwAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:20.318  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAhwIAI0RyaXZlIEZvcmV2ZXIgKFJ1c3NpYW4gcmVtaXgpIC0gQkJNAApNdXNpYyBUaW1lAAAAAAAB7DAAC2MyczZYTHFlb2FNAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9YzJzNlhMcWVvYU0AB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:20.774  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAoAIAQFNlcmdpbyBWYWxlbnRpbm8gICAgIF8gIGRyaXZlIGZvcmV2ZXIgICAgRzYzX19CTVdfX0FNRyDtoL3ttbfvuI8ABk1PSFg3NwAAAAAABDI4AAt4QXVKT3hQYURrbwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXhBdUpPeFBhRGtvAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:21.267  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAwwIAZERJT1IgLSBEUklWRSBGT1JFVkVSIChPZmZpY2FsIEx5cmljJ3MgVmlvZGUpIFJ1c3NpYW4gUmVtaXggRW5nbGlzaCBTdWJ0aXRsZXMgfCBUaWt0b2sgVHJlbmRpbmd8IFZFVk8ABU1VU0lDAAAAAAAB/7gAC3FiZC1QdlpUS2xRAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9cWJkLVB2WlRLbFEAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:21.822  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAegIAHERyaXZlIEZvcmV2ZXIgUnVzc2lhbiAxIGhvdXIABDEyIE0AAAAAADkVSAALdGlsX3FNT1Q1MHMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj10aWxfcU1PVDUwcwAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:12:23.619  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:60725 -- CloseStatus[code=1006, reason=]
+2022-05-16 19:12:23.620  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-05-16 19:13:10.531  INFO 4664 --- [XNIO-1 task-6] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62410
+2022-05-16 19:13:10.533  INFO 4664 --- [XNIO-1 task-6] lavalink.server.io.SocketServer          : Connection successfully established from /[0:0:0:0:0:0:0:1]:62410
+2022-05-16 19:13:20.954  INFO 4664 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"914cc4485f44df6d21ba95d180ebbeee","event":{"token":"f443ad10e964f8e7","guild_id":"230750656925925378","endpoint":"southafrica696.discord.media:443"},"op":"voiceUpdate","guildId":"230750656925925378"}
+2022-05-16 19:13:20.960  INFO 4664 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:enemy"
+2022-05-16 19:13:22.361  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: enemy
+2022-05-16 19:13:22.376  INFO 4664 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"track":"QAAAsgIASkltYWdpbmUgRHJhZ29ucyB4IEouSS5EIC0gRW5lbXkgKGZyb20gdGhlIHNlcmllcyBBcmNhbmUgTGVhZ3VlIG9mIExlZ2VuZHMpAA5JbWFnaW5lRHJhZ29ucwAAAAAAA0PwAAtEOUcxVk9qTl84NAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUQ5RzFWT2pOXzg0AAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:13:41.986  INFO 4664 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:drive forever"
+2022-05-16 19:13:42.848  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: drive forever
+2022-05-16 19:14:48.576  INFO 4664 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62410 -- CloseStatus[code=1006, reason=]
+2022-05-16 19:14:48.576  INFO 4664 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-05-16 19:16:17.374  INFO 4664 --- [XNIO-1 task-11] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62512
+2022-05-16 19:16:17.376  INFO 4664 --- [XNIO-1 task-11] lavalink.server.io.SocketServer          : Connection successfully established from /[0:0:0:0:0:0:0:1]:62512
+2022-05-16 19:16:28.277  INFO 4664 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"8e38d4d90bf9bdc51cd92e5320336452","event":{"token":"7dac5a611762a1ad","guild_id":"230750656925925378","endpoint":"southafrica696.discord.media:443"},"op":"voiceUpdate","guildId":"230750656925925378"}
+2022-05-16 19:16:28.283  INFO 4664 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:enemy"
+2022-05-16 19:16:29.253  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: enemy
+2022-05-16 19:16:34.621  INFO 4664 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"track":"QAAAsgIASkltYWdpbmUgRHJhZ29ucyB4IEouSS5EIC0gRW5lbXkgKGZyb20gdGhlIHNlcmllcyBBcmNhbmUgTGVhZ3VlIG9mIExlZ2VuZHMpAA5JbWFnaW5lRHJhZ29ucwAAAAAAA0PwAAtEOUcxVk9qTl84NAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUQ5RzFWT2pOXzg0AAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:17:17.570  INFO 4664 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:drive forever"
+2022-05-16 19:17:18.661  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: drive forever
+2022-05-16 19:20:09.022  INFO 4664 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"track":"QAAAkAIAKEltYWdpbmUgRHJhZ29ucyB4IEouSS5EIC0gRW5lbXkgKEx5cmljcykADlJhY2hlbCBHYXJkbmVyAAAAAAADQAgAC29tVnZ1TDBsT2VzAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9b21WdnVMMGxPZXMAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:22:56.265  INFO 4664 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62512 -- CloseStatus[code=1006, reason=]
+2022-05-16 19:22:56.265  INFO 4664 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-05-16 19:23:05.141  INFO 4664 --- [XNIO-1 task-16] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62712
+2022-05-16 19:23:05.144  INFO 4664 --- [XNIO-1 task-16] lavalink.server.io.SocketServer          : Connection successfully established from /[0:0:0:0:0:0:0:1]:62712
+2022-05-16 19:23:13.375  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"712e1ad696700c69aea7673f6faf1e1c","event":{"token":"7dac5a611762a1ad","guild_id":"230750656925925378","endpoint":"southafrica696.discord.media:443"},"op":"voiceUpdate","guildId":"230750656925925378"}
+2022-05-16 19:23:13.381  INFO 4664 --- [XNIO-1 task-17] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:drive forever"
+2022-05-16 19:23:13.407  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] o.apache.http.impl.execchain.RetryExec   : I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.youtube.com:443: Connection reset
+2022-05-16 19:23:13.407  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] o.apache.http.impl.execchain.RetryExec   : Retrying request to {s}->https://www.youtube.com:443
+2022-05-16 19:23:14.563  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: drive forever
+2022-05-16 19:23:14.581  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAlQIALk5pZ2h0c2hpZnQgVFYgLSBEcml2ZSBGb3JldmVyIChPZmZpY2lhbCBBdWRpbykADU5JR0hUU0hJRlQgVFYAAAAAAAN2uAALeExjNmx3YkpveFUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj14TGM2bHdiSm94VQAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:25:53.719  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62712 -- CloseStatus[code=1006, reason=]
+2022-05-16 19:25:53.720  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-05-16 19:26:25.890  INFO 4664 --- [XNIO-1 task-19] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:51120
+2022-05-16 19:26:25.893  INFO 4664 --- [XNIO-1 task-19] lavalink.server.io.SocketServer          : Connection successfully established from /[0:0:0:0:0:0:0:1]:51120
+2022-05-16 19:26:33.449  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"47e1c76d17aa7ae4415c61b70a248333","event":{"token":"7dac5a611762a1ad","guild_id":"230750656925925378","endpoint":"southafrica696.discord.media:443"},"op":"voiceUpdate","guildId":"230750656925925378"}
+2022-05-16 19:26:33.454  INFO 4664 --- [XNIO-1 task-20] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:drive forever"
+2022-05-16 19:26:34.294  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: drive forever
+2022-05-16 19:26:34.309  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAlQIALk5pZ2h0c2hpZnQgVFYgLSBEcml2ZSBGb3JldmVyIChPZmZpY2lhbCBBdWRpbykADU5JR0hUU0hJRlQgVFYAAAAAAAN2uAALeExjNmx3YkpveFUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj14TGM2bHdiSm94VQAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:27:38.165  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"230750656925925378"}
+2022-05-16 19:27:38.168  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAgQIAHERyaXZlIGZvcmV2ZXIgKFQzTlpVIF9SZW1peCkAC0JMQUNLIFNQRUxMAAAAAAACIuAAC3hHREJWcnFRRl9zAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9eEdEQlZycVFGX3MAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:28:05.119  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"230750656925925378"}
+2022-05-16 19:28:05.120  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAApgIAOkRyaXZlIEZvcmV2ZXIgLSBSdXNzaWFuIFJlbWl4ICggRW5nbGlzaCBMeXJpY3MgKSBkaW9yIHNvbmcAEk11esOtYyB3aXRoIGx5cmljcwAAAAAAANLwAAs0bEgwQUVyTFZXUQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTRsSDBBRXJMVldRAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:28:59.370  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAoAIAM0RyaXZlIEZvcmV2ZXIgW1J1c3NpYW4gUmVtaXhdICogUGVha3kgQmxpbmRlcnMgKDRLKQATUHJpdG9tIFLDuHkgwq5NdXNpYwAAAAAAAfvQAAtQYi1NNWZvWVV2ZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVBiLU01Zm9ZVXZnAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:31:09.794  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAhgIAFkRyaXZlIEZvcmV2ZXIgLSAxIEhvdXIAFk11c2ljIExpYnJhcnkgLSAxIEhvdXIAAAAAADdMQAALX1N5LWR0anNJdWMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1fU3ktZHRqc0l1YwAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:34:19.791  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"230750656925925378"}
+2022-05-16 19:34:19.796  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAfQIAH0RyaXZlIGZvcmV2ZXIgUnVzc2lhbiAxMCBtaW4gSEQABDEyIE0AAAAAAAmFgAALWVZEU2VTcTJBaTQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ZVkRTZVNxMkFpNAAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:34:26.178  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"230750656925925378"}
+2022-05-16 19:34:26.178  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAhgIAJ1QzTlpVIC0g0J/QvtC70L7QttC10L3QuNC1IC8gUG9sb3poZW5pZQAFVDNOWlUAAAAAAAI6UAALUEZZNGRnRHpnVE0AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1QRlk0ZGdEemdUTQAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:34:32.856  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"230750656925925378"}
+2022-05-16 19:34:32.857  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAbAIADURyaXZlIEZvcmV2ZXIABVQzTlpVAAAAAAAFS3gAC2swZFFjRXUxbG1vAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9azBkUWNFdTFsbW8AB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:34:39.163  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"230750656925925378"}
+2022-05-16 19:34:39.164  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAlgIAKVJhdmVuIFJvY2sgLSBEcml2ZSBGb3JldmVyIChHdWl0YXIgUmVtaXgpABN0aGUgRkFWT1VSSVRFIE1VU0lDAAAAAAADrWgAC2M3R3lXeEoxTWlFAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9YzdHeVd4SjFNaUUAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:34:44.511  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"230750656925925378"}
+2022-05-16 19:34:44.513  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAkQIAGFBvbG96aGVuaWUgU2xvd2VkIDEgSG91cgAfTWluaW1hbCBTb3VuZHMgLSAxIEhvdXIgVmVyc2lvbgAAAAAAPW6QAAt5VlUtUzRBZWZyVQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXlWVS1TNEFlZnJVAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:34:53.172  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:51120 -- CloseStatus[code=1006, reason=]
+2022-05-16 19:34:53.172  INFO 4664 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-05-16 19:35:02.113  INFO 4664 --- [XNIO-1 task-22] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:51385
+2022-05-16 19:35:02.115  INFO 4664 --- [XNIO-1 task-22] lavalink.server.io.SocketServer          : Connection successfully established from /[0:0:0:0:0:0:0:1]:51385
+2022-05-16 19:35:07.657  INFO 4664 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"sessionId":"53b7361b1113f4dde36a1b63e3795f2d","event":{"token":"7dac5a611762a1ad","guild_id":"230750656925925378","endpoint":"southafrica696.discord.media:443"},"op":"voiceUpdate","guildId":"230750656925925378"}
+2022-05-16 19:35:07.668  INFO 4664 --- [XNIO-1 task-23] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:enemy"
+2022-05-16 19:35:07.690  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] o.apache.http.impl.execchain.RetryExec   : I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.youtube.com:443: Connection reset
+2022-05-16 19:35:07.690  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] o.apache.http.impl.execchain.RetryExec   : Retrying request to {s}->https://www.youtube.com:443
+2022-05-16 19:35:08.881  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: enemy
+2022-05-16 19:35:08.894  INFO 4664 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"track":"QAAAsgIASkltYWdpbmUgRHJhZ29ucyB4IEouSS5EIC0gRW5lbXkgKGZyb20gdGhlIHNlcmllcyBBcmNhbmUgTGVhZ3VlIG9mIExlZ2VuZHMpAA5JbWFnaW5lRHJhZ29ucwAAAAAAA0PwAAtEOUcxVk9qTl84NAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUQ5RzFWT2pOXzg0AAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:35:30.826  INFO 4664 --- [XNIO-1 task-25] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:drive forever"
+2022-05-16 19:35:31.648  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: drive forever
+2022-05-16 19:38:43.227  INFO 4664 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"track":"QAAAlQIALk5pZ2h0c2hpZnQgVFYgLSBEcml2ZSBGb3JldmVyIChPZmZpY2lhbCBBdWRpbykADU5JR0hUU0hJRlQgVFYAAAAAAAN2uAALeExjNmx3YkpveFUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj14TGM2bHdiSm94VQAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 19:54:06.661  INFO 4664 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:51385 -- CloseStatus[code=1006, reason=]
+2022-05-16 19:54:06.661  INFO 4664 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-05-16 19:56:23.052  INFO 4664 --- [XNIO-1 task-27] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:55402
+2022-05-16 19:56:23.055  INFO 4664 --- [XNIO-1 task-27] lavalink.server.io.SocketServer          : Connection successfully established from /[0:0:0:0:0:0:0:1]:55402
+2022-05-16 19:56:53.998  INFO 4664 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:55402 -- CloseStatus[code=1006, reason=]
+2022-05-16 19:56:53.998  INFO 4664 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-05-16 19:57:20.762  INFO 4664 --- [XNIO-1 task-28] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:55445
+2022-05-16 19:57:20.764  INFO 4664 --- [XNIO-1 task-28] lavalink.server.io.SocketServer          : Connection successfully established from /[0:0:0:0:0:0:0:1]:55445
+2022-05-16 19:58:13.354  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"0ea61197849e0502850d894067d84baf","event":{"token":"abed664de83f2343","guild_id":"230750656925925378","endpoint":"southafrica696.discord.media:443"},"op":"voiceUpdate","guildId":"230750656925925378"}
+2022-05-16 19:58:13.359  INFO 4664 --- [XNIO-1 task-29] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=72Nv383uJe0&list=PLVAE8SUgmkP9zNfESSklaQwztsqx82jv3&ab_channel=DiscoveringMusicClub"
+2022-05-16 19:58:13.382  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] o.apache.http.impl.execchain.RetryExec   : I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.youtube.com:443: Connection reset
+2022-05-16 19:58:13.383  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] o.apache.http.impl.execchain.RetryExec   : Retrying request to {s}->https://www.youtube.com:443
+2022-05-16 19:58:13.406  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] o.apache.http.impl.execchain.RetryExec   : I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.youtube.com:443: Connection reset
+2022-05-16 19:58:13.406  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] o.apache.http.impl.execchain.RetryExec   : Retrying request to {s}->https://www.youtube.com:443
+2022-05-16 19:58:13.427  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] o.apache.http.impl.execchain.RetryExec   : I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.youtube.com:443: Connection reset
+2022-05-16 19:58:13.427  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] o.apache.http.impl.execchain.RetryExec   : Retrying request to {s}->https://www.youtube.com:443
+2022-05-16 19:58:14.431  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist ? Badass Music ? ? GAMING?WORKOUT ? Discovering Music?
+2022-05-16 19:59:23.232  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:55445 -- CloseStatus[code=1006, reason=]
+2022-05-16 19:59:23.233  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-05-16 19:59:40.500  INFO 4664 --- [XNIO-1 task-31] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:49256
+2022-05-16 19:59:40.502  INFO 4664 --- [XNIO-1 task-31] lavalink.server.io.SocketServer          : Connection successfully established from /[0:0:0:0:0:0:0:1]:49256
+2022-05-16 19:59:44.633  INFO 4664 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"0df1110a2e1176f5c573dc7fcfda1c5c","event":{"token":"abed664de83f2343","guild_id":"230750656925925378","endpoint":"southafrica696.discord.media:443"},"op":"voiceUpdate","guildId":"230750656925925378"}
+2022-05-16 19:59:44.643  INFO 4664 --- [XNIO-1 task-32] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=72Nv383uJe0&list=PLVAE8SUgmkP9zNfESSklaQwztsqx82jv3&ab_channel=DiscoveringMusicClub"
+2022-05-16 19:59:45.511  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist ? Badass Music ? ? GAMING?WORKOUT ? Discovering Music?
+2022-05-16 19:59:59.137  INFO 4664 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:49256 -- CloseStatus[code=1006, reason=]
+2022-05-16 19:59:59.138  INFO 4664 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-05-16 20:00:28.447  INFO 4664 --- [XNIO-1 task-34] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:49313
+2022-05-16 20:00:28.449  INFO 4664 --- [XNIO-1 task-34] lavalink.server.io.SocketServer          : Connection successfully established from /[0:0:0:0:0:0:0:1]:49313
+2022-05-16 20:00:52.806  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:49313 -- CloseStatus[code=1006, reason=]
+2022-05-16 20:00:52.806  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-05-16 20:00:57.844  INFO 4664 --- [XNIO-1 task-35] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:49327
+2022-05-16 20:00:57.846  INFO 4664 --- [XNIO-1 task-35] lavalink.server.io.SocketServer          : Connection successfully established from /[0:0:0:0:0:0:0:1]:49327
+2022-05-16 20:01:02.536  INFO 4664 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"sessionId":"5b27fd339eda6a07874fdc17edd143e6","event":{"token":"abed664de83f2343","guild_id":"230750656925925378","endpoint":"southafrica696.discord.media:443"},"op":"voiceUpdate","guildId":"230750656925925378"}
+2022-05-16 20:01:02.542  INFO 4664 --- [XNIO-1 task-36] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=72Nv383uJe0&list=PLVAE8SUgmkP9zNfESSklaQwztsqx82jv3&ab_channel=DiscoveringMusicClub"
+2022-05-16 20:01:03.292  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist ? Badass Music ? ? GAMING?WORKOUT ? Discovering Music?
+2022-05-16 20:01:15.002  INFO 4664 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"track":"QAAAqAIAOEVQSUMgQkFEQVNTIE1VU0lDICJTb25zIG9mIExlZ2lvbiAtIFBPV0VSIFtMeXJpYyBWaWRlb10iABZEaXNjb3ZlcmluZyBNdXNpYyBDbHViAAAAAAACgKAACzcyTnYzODN1SmUwAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NzJOdjM4M3VKZTAAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 20:01:22.599  INFO 4664 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:49327 -- CloseStatus[code=1006, reason=]
+2022-05-16 20:01:22.599  INFO 4664 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-05-16 20:01:39.483  INFO 4664 --- [XNIO-1 task-38] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:49355
+2022-05-16 20:01:39.485  INFO 4664 --- [XNIO-1 task-38] lavalink.server.io.SocketServer          : Connection successfully established from /[0:0:0:0:0:0:0:1]:49355
+2022-05-16 20:01:45.339  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"183f1a66902f0a596b1b447ffb4739a7","event":{"token":"abed664de83f2343","guild_id":"230750656925925378","endpoint":"southafrica696.discord.media:443"},"op":"voiceUpdate","guildId":"230750656925925378"}
+2022-05-16 20:01:45.345  INFO 4664 --- [XNIO-1 task-39] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=72Nv383uJe0&list=PLVAE8SUgmkP9zNfESSklaQwztsqx82jv3&ab_channel=DiscoveringMusicClub"
+2022-05-16 20:01:46.098  INFO 4664 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist ? Badass Music ? ? GAMING?WORKOUT ? Discovering Music?
+2022-05-16 20:01:46.115  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAqAIAOEVQSUMgQkFEQVNTIE1VU0lDICJTb25zIG9mIExlZ2lvbiAtIFBPV0VSIFtMeXJpYyBWaWRlb10iABZEaXNjb3ZlcmluZyBNdXNpYyBDbHViAAAAAAACgKAACzcyTnYzODN1SmUwAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NzJOdjM4M3VKZTAAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 20:04:30.742  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAA0AIAYEVQSUMgQkFEQVNTIE1VU0lDICJCbGFjayBIeWRyYSB4IENpdHkgV29sZiB4IEVhc3kgTWNDb3kgLSBJIFdhc24ndCBCb3JuIFRvIEJlaGF2ZSBbTHlyaWMgVmlkZW9dIgAWRGlzY292ZXJpbmcgTXVzaWMgQ2x1YgAAAAAAA27oAAtQb0Y2TkRpbTJvawABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVBvRjZORGltMm9rAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 20:08:17.196  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAoQIAMUVQSUMgQkFEQVNTIE1VU0lDICJWYWxsZXkgT2YgV29sdmVzIC0gQ2hvc2VuIE9uZSIAFkRpc2NvdmVyaW5nIE11c2ljIENsdWIAAAAAAAOZ4AALeVltOG1LYkdSejAAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj15WW04bUtiR1J6MAAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 20:12:14.492  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAlQIAJUphbWVzIERlYWNvbiAtIFN0cm9uZ2VyIFtMeXJpYyBWaWRlb10AFkRpc2NvdmVyaW5nIE11c2ljIENsdWIAAAAAAAJN2AALRUhmdEU1UFVQT2sAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1FSGZ0RTVQVVBPawAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"230750656925925378"}
+2022-05-16 20:14:46.917  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAqQIAOUVQSUMgQkFEQVNTIE1VU0lDICJTaWx2ZXJiZXJnIC0gUmVhcGVyIChmdC4gSm9yZGFuIEZyeWUpIgAWRGlzY292ZXJpbmcgTXVzaWMgQ2x1YgAAAAAAA0AIAAtqYk9PbGlPVWJ4SQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWpiT09saU9VYnhJAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 20:18:27.172  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAtQIARUVQSUMgQkFUVExFIFZJT0xJTiBNVVNJQyAiVGhlIFBoYW50b21zIC0gU3Ryb25nZXIgKGZ0LiBCbGFjayBWaW9saW4pIgAWRGlzY292ZXJpbmcgTXVzaWMgQ2x1YgAAAAAAAvHoAAtpOUNjSmtvZ0ROSQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWk5Q2NKa29nRE5JAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
+2022-05-16 20:18:28.117  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAlgIAJlNoaXBzIEhhdmUgU2FpbGVkIC0gUmlzZSBbTHlyaWMgVmlkZW9dABZEaXNjb3ZlcmluZyBNdXNpYyBDbHViAAAAAAADNFAAC2xHYk9yTUpoaGJnAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9bEdiT3JNSmhoYmcAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 20:18:28.121 ERROR 4664 --- [lava-daemon-pool-playback-1-thread-5] c.s.d.l.t.p.LocalAudioTrackExecutor      : Error in playback of i9CcJkogDNI
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Something broke when playing the track.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:44) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:116) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$executeTrack$1(DefaultAudioPlayerManager.java:348) ~[lavaplayer-1.3.76.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+	Suppressed: com.sedmelluq.discord.lavaplayer.tools.exception.EnvironmentInformation: 
+  lavaplayer.version: 1.3.76
+  os.arch: amd64
+  os.name: Windows 10
+  os.version: 10.0
+  java.vendor: Oracle Corporation
+  java.version: 17.0.1
+  java.runtime.version: 17.0.1+12-LTS-39
+  java.vm.version: 17.0.1+12-LTS-39
+Caused by: java.lang.RuntimeException: Not success status code: 403
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.validateStatusCode(PersistentHttpStream.java:87) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.attemptConnect(PersistentHttpStream.java:116) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.connect(PersistentHttpStream.java:105) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.internalRead(PersistentHttpStream.java:150) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.read(PersistentHttpStream.java:166) ~[lavaplayer-1.3.76.jar!/:na]
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:271) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.format.MatroskaEbmlReader.readEbmlInteger(MatroskaEbmlReader.java:39) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.format.MatroskaFileReader.readNextElement(MatroskaFileReader.java:45) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.readFile(MatroskaStreamingFile.java:78) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaAudioTrack.loadMatroskaFile(MatroskaAudioTrack.java:51) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaAudioTrack.process(MatroskaAudioTrack.java:34) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.DelegatedAudioTrack.processDelegate(DelegatedAudioTrack.java:25) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.processStatic(YoutubeAudioTrack.java:57) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.process(YoutubeAudioTrack.java:49) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:104) ~[lavaplayer-1.3.76.jar!/:na]
+	... 4 common frames omitted
+
+2022-05-16 20:20:56.118  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"230750656925925378"}
+2022-05-16 20:20:56.118  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAArgIAPkVQSUMgQkFEQVNTIE1VU0lDICJTb25zIG9mIExlZ2lvbiAtIEZpcmVTdGFydGVyIFtMeXJpYyBWaWRlb10iABZEaXNjb3ZlcmluZyBNdXNpYyBDbHViAAAAAAACQiAAC3pGNi1paDZSZWNBAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ekY2LWloNlJlY0EAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"230750656925925378"}
+2022-05-16 20:20:56.998 ERROR 4664 --- [lava-daemon-pool-playback-1-thread-6] c.s.d.l.t.p.LocalAudioTrackExecutor      : Error in playback of zF6-ih6RecA
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Something broke when playing the track.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:44) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:116) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$executeTrack$1(DefaultAudioPlayerManager.java:348) ~[lavaplayer-1.3.76.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+	Suppressed: com.sedmelluq.discord.lavaplayer.tools.exception.EnvironmentInformation: 
+  lavaplayer.version: 1.3.76
+  os.arch: amd64
+  os.name: Windows 10
+  os.version: 10.0
+  java.vendor: Oracle Corporation
+  java.version: 17.0.1
+  java.runtime.version: 17.0.1+12-LTS-39
+  java.vm.version: 17.0.1+12-LTS-39
+Caused by: java.lang.RuntimeException: Not success status code: 403
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.validateStatusCode(PersistentHttpStream.java:87) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.attemptConnect(PersistentHttpStream.java:116) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.connect(PersistentHttpStream.java:105) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.internalRead(PersistentHttpStream.java:150) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.read(PersistentHttpStream.java:166) ~[lavaplayer-1.3.76.jar!/:na]
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:271) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.format.MatroskaEbmlReader.readEbmlInteger(MatroskaEbmlReader.java:39) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.format.MatroskaFileReader.readNextElement(MatroskaFileReader.java:45) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.readFile(MatroskaStreamingFile.java:78) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaAudioTrack.loadMatroskaFile(MatroskaAudioTrack.java:51) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaAudioTrack.process(MatroskaAudioTrack.java:34) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.DelegatedAudioTrack.processDelegate(DelegatedAudioTrack.java:25) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.processStatic(YoutubeAudioTrack.java:57) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.process(YoutubeAudioTrack.java:49) ~[lavaplayer-1.3.76.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:104) ~[lavaplayer-1.3.76.jar!/:na]
+	... 4 common frames omitted
+
+2022-05-16 20:20:57.013  INFO 4664 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAiAIAGFppZ2d5IFN1bGxpdmluIC0gUmlzZSBVcAAWRGlzY292ZXJpbmcgTXVzaWMgQ2x1YgAAAAAAArNoAAtxX0I4MkM0LTd1RQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXFfQjgyQzQtN3VFAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"230750656925925378"}
