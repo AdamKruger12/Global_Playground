@@ -1,0 +1,58 @@
+﻿.credit-card-outer {
+    width: 400px;
+    height:200px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #096d79,#00d4ff);
+    padding: 50px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.credit-card-font {
+    color: #fff;
+    font-size: 18px;
+    font-family: ocr_a_std,sans-serif;
+    text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+    text-align:center;
+}
+.credit-card-number {
+    text-align:center
+}
+
+.credit-card-date {
+    text-align: right;
+    clear: right;
+}
+
+.credit-card-date-prefix {
+    clear: right;
+    font-size: 7px;
+    text-align: right;
+}
+
+.credit-card-company {
+    margin: 5px;
+}
+
+.img-company {
+    width: 60px;
+    float: right;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.credit-card-person {
+    text-align: left;
+    font-size: 15px;
+}
+
+.card-wrapper {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*//*green border to help identify spacing issues*/
+    padding: 10px;
+}
+
+

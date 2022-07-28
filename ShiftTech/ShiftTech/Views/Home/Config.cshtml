@@ -1,0 +1,19 @@
+﻿<div>
+    <div>
+        <form>
+            <div id="config-field" />
+        </form>
+    </div>
+</div>
+
+
+@section scripts {
+  <environment names="Development">
+<script src="~/js/API/api_config.js"></script>
+<script src="~/js/config.js"></script>
+  </environment>
+  <environment names="Staging,Production">
+<script src="~/js/API/api_config.js"></script>
+<script src="~/js/config.js"></script>
+  </environment>
+}

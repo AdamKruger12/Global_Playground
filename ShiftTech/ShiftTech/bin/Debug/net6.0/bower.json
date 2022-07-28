@@ -1,0 +1,21 @@
+{
+  "name": "asp.net",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Adam Kruger <adam.kruger@traderoot.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "card": "^2.5.4"
+  }
+}

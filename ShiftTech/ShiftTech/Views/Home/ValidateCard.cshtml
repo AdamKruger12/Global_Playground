@@ -1,0 +1,27 @@
+﻿<div>
+    <div class="card-wrapper"></div>
+    <form itemid="cc-form">
+        
+        <div class="form-container">
+            @*populate some text here maybe future adam*@
+        </div>
+        <div>
+            <input id="input-field" type="text" name="number" placeholder="Card Number"></input>
+            <span class="error" ></span>
+            <input class="field-submit" type="submit" value="Save" disabled></input>
+        </div>
+    </form>
+</div>
+
+    @section scripts {
+
+  <environment names="Development">
+        <script src="~/js/validation.js"></script>
+        <script src="~/js/card.js"></script>
+    <script src="~/js/API/api_save.js"></script>
+    
+  </environment>
+  <environment names="Staging,Production">
+        <script src="~/js/validation.js"></script>
+  </environment>
+}

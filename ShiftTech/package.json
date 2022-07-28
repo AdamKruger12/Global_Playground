@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "card": "^2.5.4",
+    "credit-card-logos": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  }
+}
